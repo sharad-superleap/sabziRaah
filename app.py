@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from extensions import db
 from routes.vendors.routes import vendors_bp
 
